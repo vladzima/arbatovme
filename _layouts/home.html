@@ -2,25 +2,24 @@
 layout: default
 ---
 
-<section class="intro">
-  <div class="is-row is-inset-top-60 is-inset-top-20-mobile is-outset-x-20-mobile is-outset-x-20 is-col-stack-20">
-    <div class="is-col is-5"></div>
-    <div class="is-col is-10"><img src="{{ "/assets/vladislav-arbatov.png" | relative_url }}" class="avatar"></div>
-    <div class="is-col is-5"></div>
-    <div class="is-col is-50">
+<div class="is-items-middle" style="height=100%;">
+<div class="is-width-large is-center is-shadow-3 animated fadeIn">
+<section class="intro is-shadow-3">
+  <div class="is-row is-inset-right-40 is-outset-y-80 is-inset-top-20-mobile is-outset-y-none-mobile ">
+    <div class="is-col is-40 image-container"></div>
+    <div class="is-col is-60 is-inset-32">
       {%- if page.title -%}
         <h1 class="logo">{{ page.title }}</h1>
       {%- endif -%}
 
-      <h3 class="tagline is-inset-top-20-mobile">{{ page.tagline }}</h3>
+      <h2 class="tagline is-inset-top-20-mobile">{{ page.tagline }}</h2>
 
       <p class="about vheight">{{ page.about }}</p>
 
-      <p class="about">{{ page.contact }}</p>
+      <p class="about vheight">{{ page.contact }}</p>
 
       {{ content }}
     </div>
-    <div class="is-col is-30"></div>
 
     <!-- {%- if site.posts.size > 0 -%}
       <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
@@ -45,3 +44,5 @@ layout: default
     {%- endif -%} -->
 
 </section>
+</div>
+</div>
