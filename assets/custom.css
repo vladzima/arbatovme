@@ -17,9 +17,11 @@ html {
   background-color: #f5f5f5;
 } */
 
-.intro {
-  background-color: rgba(27,27,27,0.7);
-  color: #ffffff;
+@media only screen and (min-width: 400px) {
+  .intro {
+    background-color: rgba(27,27,27,0.7);
+    color: #ffffff;
+  }
 }
 
 @media only screen and (max-width: 400px) {
