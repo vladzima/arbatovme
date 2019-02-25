@@ -1,16 +1,7 @@
-html {
-  height: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background: #70bg32;
-  background-repeat: no-repeat;
-  background: -webkit-linear-gradient(to left top, #6F86D6, #48C6EF);
-  background: -moz-linear-gradient(to left top, #6F86D6, #48C6EF);
-  background: -ms-linear-gradient(to left top, #6F86D6, #48C6EF);
-  background: -o-linear-gradient(to left top, #6F86D6, #48C6EF);
-  background: linear-gradient(to left top, #6F86D6, #48C6EF);
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -41,91 +32,103 @@ html {
 }
 
 .tagline {
-  font-family: 'Rubik', sans-serif;
-  font-weight: 300;
+  font-family: 'Inter var', sans-serif;
+  /* font-weight: 500;
   line-height: 38px;
+  font-size: 24px; */
 }
 
 .logo {
-  font-size: 34pt;
-  font-family: 'Rubik', sans-serif;
-  font-weight: 500;
+  font-family: 'Inter var', sans-serif;
+  /* font-weight: 500; */
 }
 
 .about {
-  font-family: 'Rubik', sans-serif;
-  font-size: 16pt;
-  line-height: 34px;
-  font-weight: 400;
+  font-family: 'Inter var', sans-serif;
+  /* font-size: 14pt;
+  line-height: 30px;
+  font-weight: 400; */
 }
 
 .linkedin {
-  color: #0077b5;
+  color: #000000;
   text-decoration: none;
   border-bottom: 0px;
-  font-size: 32px;
+  font-size: 26px;
+  padding-right: 8px;
+}
+
+.github {
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 0px;
+  font-size: 26px;
   padding-right: 8px;
 }
 
 .producthunt {
-  color: #da552f;
+  color: #000000;
   text-decoration: none;
   border-bottom: 0px;
-  font-size: 32px;
+  font-size: 26px;
   padding-right: 8px;
 }
 
 .facebook {
-  color: #4267b2;
+  color: #000000;
   text-decoration: none;
   border-bottom: 0px;
-  font-size: 32px;
+  font-size: 26px;
   padding-right: 8px;
 }
 
 .twitter {
-  color: #38A1F3;
+  color: #000000;
   text-decoration: none;
   border-bottom: 0px;
-  font-size: 32px;
+  font-size: 26px;
   padding-right: 8px;
 }
 
 .medium {
-  color: #00ab6c;
+  color: #000000;
   text-decoration: none;
   border-bottom: 0px;
-  font-size: 32px;
+  font-size: 26px;
   padding-right: 8px;
 }
 
 .telegram {
-  color: #0088cc;
+  color: #000000;
   text-decoration: none;
   border-bottom: 0px;
-  font-size: 32px;
+  font-size: 26px;
   padding-right: 8px;
 }
 
 .email {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
   border-bottom: 0px;
-  font-size: 32px;
+  font-size: 26px;
 }
 
 .vheight {
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
-a {
+.vheight2 {
+  padding-top: 10px;
+}
+
+/* a {
   text-decoration: none;
-  border-bottom: 1px solid;
-  color: #ffffff;
+  border-bottom: 2px solid;
+  color: #000000;
 }
 
 a:hover {
   text-decoration: none;
   border-bottom: 0px;
   color: inherit;
-}
+} */
