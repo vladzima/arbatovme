@@ -26,12 +26,12 @@ layout: default
           <br>
           {%- for post in site.posts -%}
             <h5> {%- if post.icon -%}{{ post.icon }}&nbsp;&nbsp;{%- endif -%}
-              <a href="{{ post.link }}">{{ post.title | escape }}</a>
+              <a href="{{ post.link }}" style="font-weight:500;">{{ post.title | escape }}</a>
             </h5>
           {%- endfor -%}
           {%- endif -%}
 
-          <h5 class="vheight"><img src="{{site.baseurl}}/assets/refind.svg" width="18px;"> <a href="https://refind.com/vlad-arbatov?invite=dd0d496a57">Follow me on Refind</a> for my curated list of updates on AI and Tech</h5>
+          <p class="vheight"><img src="{{site.baseurl}}/assets/refind.svg" width="18px;"> <a href="https://refind.com/vlad-arbatov?invite=dd0d496a57" style="font-weight:500;">Follow me on Refind</a><br>for my curated list of updates on AI and Tech</p>
 
           <div class="is-shown-mobile vheight">&nbsp;</div>
         </div>
