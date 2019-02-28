@@ -15,4 +15,5 @@ Uses [Commitizen](https://github.com/commitizen/cz-cli) for conventional changel
 
 ## Deploy
 `bash post.sh`
+
 TravisCI build will run automatically and site will be updated on Github Pages.
