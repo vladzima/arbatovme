@@ -21,15 +21,7 @@ layout: default
       </div>
       <div class="is-col is-60 is-inset-32 is-inset-20-mobile is-inset-y-none-mobile">
 
-        {%- if site.posts.size > 0 -%}
-        <h4 class="post-list-heading">{{ page.list_title | default: "Latest" }}</h4>
-          <br>
-          {%- for post in site.posts -%}
-            <h5> {%- if post.icon -%}{{ post.icon }}&nbsp;&nbsp;{%- endif -%}
-              <a href="{{ post.link }}" style="font-weight:500;">{{ post.title | escape }}</a>
-            </h5>
-          {%- endfor -%}
-          {%- endif -%}
+        {%- include links.html -%}
 
           <p class="vheight"><img src="{{site.baseurl}}/assets/refind.svg" width="18px;"> <a href="https://refind.com/vlad-arbatov?invite=dd0d496a57" style="font-weight:500;">Follow me on Refind</a><br>for my curated list of updates on AI and Tech</p>
 

@@ -1,0 +1,10 @@
+{%- if site.links.size > 0 -%}
+<h4>Latest</h4>
+  <br>
+  {% assign links = (site.links | sort: 'date') | reverse %}
+  {%- for link in links -%}
+    <h5> {%- if link.icon -%}{{ link.icon }}&nbsp;&nbsp;{%- endif -%}
+      <a href="{{ link.link }}" style="font-weight:500;">{{ link.title | escape }}</a>
+    </h5>
+  {%- endfor -%}
+  {%- endif -%}

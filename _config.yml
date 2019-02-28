@@ -2,15 +2,18 @@
 title: arbatov.me
 timezone: UTC
 collections:
+  links:
+    title: Links
+    output: false
   posts:
     title: Posts
-    output: true
+    output: false
   uploads:
     title: Uploads
     output: true
 email: vlad@arbatov.me
 description: Artificial Intelligence expert. Founder — arb.digital.
-baseurl: 
+baseurl:
 url: https://arbatov.me
 twitter_username: vladzima
 markdown: kramdown
