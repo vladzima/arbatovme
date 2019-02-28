@@ -13,7 +13,7 @@ collections:
     output: true
 email: vlad@arbatov.me
 description: Artificial Intelligence expert. Founder — arb.digital.
-baseurl: 
+baseurl:
 url: https://arbatov.me
 twitter_username: vladzima
 markdown: kramdown
