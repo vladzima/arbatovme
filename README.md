@@ -6,3 +6,17 @@
 > Personal website on [Jekyll](https://jekyllrb.com]), hosted on Github Pages on `gh-pages` branch.
 
 Uses [Commitizen](https://github.com/commitizen/cz-cli) for conventional changelog, [Imperavi Kube UI framework](https://github.com/imperavi/kubeframework) and [InterUI](https://rsms.me/inter/) font.
+
+## Post link
+`rake new_link`
+
+## Delete recent link
+`rake delete link`
+
+## Deploy
+```
+git add .
+git cz
+git push origin gh-pages
+```
+TravisCI build will run automatically and site will be updated on Github Pages.
