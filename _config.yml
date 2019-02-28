@@ -9,8 +9,8 @@ collections:
     title: Uploads
     output: true
 email: vlad@arbatov.me
-description: Artificial Intelligence expert. CTO — P2L. Founder — arb.digital.
-baseurl: ''
+description: Artificial Intelligence expert. Founder — arb.digital.
+baseurl: 
 url: https://arbatov.me
 twitter_username: vladzima
 markdown: kramdown
