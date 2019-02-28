@@ -14,9 +14,5 @@ Uses [Commitizen](https://github.com/commitizen/cz-cli) for conventional changel
 `rake delete link`
 
 ## Deploy
-```
-git add .
-git cz
-git push origin gh-pages
-```
+`bash post.sh`
 TravisCI build will run automatically and site will be updated on Github Pages.
