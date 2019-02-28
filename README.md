@@ -1,5 +1,6 @@
 # arbatov.me
 
+[![Build Status](https://travis-ci.org/vladzima/arbatovme.svg?branch=gh-pages)](https://travis-ci.org/vladzima/arbatovme)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > Personal website on [Jekyll](https://jekyllrb.com]), hosted on Github Pages on `gh-pages` branch.
