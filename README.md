@@ -7,6 +7,30 @@
 
 Uses [Commitizen](https://github.com/commitizen/cz-cli) for conventional changelog, [Imperavi Kube UI framework](https://github.com/imperavi/kubeframework) and [InterUI](https://rsms.me/inter/) font.
 
+## Run locally
+1) Check whether you have Ruby 2.1.0 or higher installed:
+
+`ruby --version`
+
+2) If you don't have Ruby installed, [install Ruby 2.1.0 or higher](https://www.ruby-lang.org/en/downloads/).
+
+3) Install Bundler:
+
+`gem install bundler`
+
+4) Clone the repository, bundle and run:
+```
+git clone git@github.com:vladzima/arbatovme.git
+cd arbatovme
+bundle install
+jekyll serve
+```
+
+5) If you plan to deploy:
+```
+npm i commitizen -g && npm i cz-customizable -g
+```
+
 ## Post link
 `rake new_link`
 
@@ -14,6 +38,6 @@ Uses [Commitizen](https://github.com/commitizen/cz-cli) for conventional changel
 `rake delete link`
 
 ## Deploy
-`bash post.sh`
+`bash deploy.sh`
 
 TravisCI build will run automatically and site will be updated on Github Pages.
