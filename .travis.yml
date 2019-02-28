@@ -12,7 +12,7 @@ addons:
     packages:
     - libcurl4-openssl-dev
 
-exclude: [vendor]
+exclude: [vendor, "Rakefile"]
 
 sudo: false # route your build to the container-based infrastructure for a faster build
 
