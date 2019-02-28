@@ -5,6 +5,7 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     backports (3.12.0)
     colorator (1.1.0)
+    colorize (0.8.1)
     concurrent-ruby (1.1.4)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
@@ -90,6 +91,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  colorize
   jekyll (~> 3.8.5)
   jekyll-admin
   jekyll-feed (~> 0.6)
