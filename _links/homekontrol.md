@@ -5,3 +5,4 @@ layout: post
 link: https://medium.com/vlad-arbatov/making-your-space-smart-with-ai-3ccd7ca23a56
 icon: fab fa-medium
 ---
+

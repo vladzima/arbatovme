@@ -5,3 +5,4 @@ layout: post
 link: https://medium.com/vlad-arbatov/development-how-to-adapt-a-custom-conventional-changelog-33ff3b13c832
 icon: fab fa-medium
 ---
+
