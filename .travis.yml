@@ -21,3 +21,14 @@ cache: bundler # caching bundler gem packages will speed up build
 # Optional: disable email notifications about the outcome of your builds
 notifications:
   email: false
+
+jobs:
+  include:
+    - stage: release
+      node_js: lts/*
+      script: skip
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script:
+          - npx semantic-release
