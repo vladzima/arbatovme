@@ -35,7 +35,7 @@ npm i commitizen -g && npm i cz-customizable -g
 `rake new_link`
 
 ## Delete recent link
-`rake delete link`
+`rake delete_link`
 
 ## Deploy
 `bash deploy.sh`
