@@ -1,5 +1,5 @@
 {%- if site.links.size > 0 -%}
-<h4>Latest</h4>
+<h4 id="latest">Latest</h4>
   <br>
   {% assign links = (site.links | sort: 'date') | reverse %}
   {%- for link in links -%}

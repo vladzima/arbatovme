@@ -121,6 +121,10 @@ html { font-family: 'Inter', sans-serif; }
   padding-top: 10px;
 }
 
+.vheight20 {
+  padding-top: 40px;
+}
+
 /* a {
   text-decoration: none;
   border-bottom: 2px solid;
