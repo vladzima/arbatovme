@@ -4,7 +4,7 @@ timezone: UTC
 collections:
   links:
     title: Links
-    output: false
+    output: true
   posts:
     title: Posts
     output: false

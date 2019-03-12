@@ -4,7 +4,7 @@
   {% assign links = (site.links | sort: 'date') | reverse %}
   {%- for link in links -%}
     <h5> {%- if link.icon -%}<i class="{{ link.icon }}" style="font-weight:normal;"></i>&nbsp;&nbsp;{%- endif -%}
-      <a href="{{ link.link }}" style="font-weight:500;">{{ link.title | escape }}</a>
+      <a href="{{ link.url }}" style="font-weight:500;">{{ link.title | escape }}</a>
     </h5>
   {%- endfor -%}
   {%- endif -%}
